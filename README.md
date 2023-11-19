@@ -19,3 +19,23 @@ The final stage of the project involves presenting the findings in a clear and c
 In conclusion, the Local Area Unemployment Statistics using Machine Learning project combines data science, machine learning techniques, and domain knowledge to create a predictive model for understanding and forecasting unemployment trends at the state level in the United States. Through a detailed overview and narrative, the project aims to contribute valuable insights to the field of labor market analysis.
 
 Findings:
+The f1 score for Random Search on Logistic Regression is 0.9762289562289563
+
+The f1 score for grid search on the logistic regression is 0.9742068308729206
+
+The f1 score for Random Search on Linear SVM is 0.9724053296218781
+
+The f1 score for Grid Search on Linear SVM is 0.9776157863464366
+
+The f1 score for Random Search on Poly SVM is 0.9736799574694313
+
+The f1 score for Grid Search on Poly SVM is 0.9724053296218781
+
+The f1 score for Random Search on RBF SVM is 0.9757976045282547
+
+The f1 score for Grid Search on RBF SVM is 0.9872873200854851
+
+The f1 score for Random Search on Decision tree classifier is 0.9891221824708063
+
+The f1 score for exhaustive Grid Search on Decision tree classifier is 0.9891221824708063
+Based on the above results, it can be clearly seen that when we compare all the f1 score metrics with the models while using both the random search and the grid search to test the range of best parameters, we see that the F1 score is highest for the Decision Tree classifier with almost same testing score. The f1 score for the decision tree classifier using the best parameter tuning using the random search testing and the grid search testing is 98.91. Hence it can be concluded that this is the best performing model out of the rest. SVM RBF appears to be the second best performing model based on the f1 score of 98.72 for the Grid Search test and 97.57 for the Random search test.
